@@ -1,0 +1,16 @@
+  217  mv AMMI-first AMMI-git
+  218  ls
+  219  cd AMMI-git
+  220  touch identity.txt
+  221  cat> identity.txt
+  222  git init
+  223  git branch -m main
+  224  git status
+  225  git config --global user.name "matzolla"\n
+  226  git config --global user.email "tchangmenaa@gmail.com"\n
+  227  git add *
+  228  git status
+  229  git commit -m "first commit"
+  230  git remote add origin https://github.com/matzolla/Git-assignment.git
+  231  git remote
+  232  git push -u origin main
